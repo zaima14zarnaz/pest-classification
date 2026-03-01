@@ -3,7 +3,7 @@
 
 Project Title: Crop Pest Classification Using CNN-Based Models
 
-Model Type: Resnet
+Model Type: Resnet (CNN based models)
 
 Objective: Classification
 
@@ -22,12 +22,15 @@ VGG 16: (Accuracy - 62.80, F1-Score: 62.53)
 ------------------------------------------------------------
 
 ## 2. Repository Structure
+```
 project_root/
   class_sampler.py
   dataloader.py
   evaluation.py
   model_googlenet.py
   model_vggnet.py
+  run_model.py
+  train.py
   requirements.txt
   ckpt/                 (checkpoint goes here)
   dataset/                   (dataset goes here)
@@ -40,12 +43,16 @@ project_root/
 
 ### OPTION B — CUSTOM SPLITS (test split uploaded to Box)
 Box Link to Dataset:
-{{paste Box link}}
+
 
 
 Where to place the dataset after download:
 ```
 data/
+   IP102/
+      classification/
+      superclasses/
+      ...
    
 ```
 
