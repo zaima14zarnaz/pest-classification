@@ -43,7 +43,7 @@ project_root/
 
 ### OPTION B — CUSTOM SPLITS (test split uploaded to Box)
 Box Link to Dataset:
-
+https://usf.box.com/s/8gqzg6gg5jnasbrflaz4ah0rlux4a921
 
 
 Where to place the dataset after download:
@@ -97,6 +97,7 @@ pip install -r requirements.txt
 ## 6. Running the Test Script
 
 Command to run testing:
+```
 Model: GoogleNet, Configuration: 8 classes
 python -m run_model --model_name googlenet --classes 8 --train_model 0
 
@@ -108,7 +109,7 @@ python -m run_model --model_name vgg16 --classes 9 --train_model 0
 
 Model: VGG16, Configuration: 102 classes
 python -m run_model --model_name vgg16 --classes 102 --train_model 0
-
+```
 ------------------------------------------------------------
 
 ## 7. Running the Training Script
@@ -126,16 +127,17 @@ python -m run_model --model_name vgg16 --classes 9 --train_model 1
 
 Model: VGG16, Configuration: 102 classes
 python -m run_model --model_name vgg16 --classes 102 --train_model 1
-
+```
 
 ------------------------------------------------------------
 
 ## 8. Submission Checklist
-
+```
 - [ yes ] Dataset provided using Option A, B, or C and placed correctly.
 - [ yes ] Model checkpoint linked and instructions for placement included.
 - [ yes ] `requirements.txt` generated and Python version specified.
 - [ yes ] Test command works.
 - [ yes ] Train command works.
+```
 
 ------------------------------------------------------------
